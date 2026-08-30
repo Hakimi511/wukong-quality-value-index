@@ -1,8 +1,8 @@
 {
   "schema_version": "public-v1",
-  "generated_at_utc": "2026-08-30T11:19:59.021296+00:00",
+  "generated_at_utc": "2026-08-30T14:25:14.004110+00:00",
   "data_as_of": "2026-08-28",
-  "source_snapshot_at": "2026-08-30T11:19:48+00:00",
+  "source_snapshot_at": "2026-08-30T13:33:33+00:00",
   "strategy": {
     "start": "2016-05-03",
     "end": "2026-08-28",
@@ -12603,6 +12603,211 @@
     "daily_return": 0.005707321033442847,
     "has_rebalance": false,
     "pit_status": "pass"
+  },
+  "daily_brief": {
+    "as_of": "2026-08-28",
+    "previous_date": "2026-08-27",
+    "index_points": 4549.929782727773,
+    "index_daily_change": 0.005707321033443069,
+    "nav_amount": 9092795.581071232,
+    "nav_daily_change": 0.005707321033442847,
+    "ytd_return": 0.017001694901414677,
+    "cumulative_return": 3.549929782727773,
+    "historical_cagr": 0.1581546981488926,
+    "historical_max_drawdown": -0.2727934521298744,
+    "historical_sharpe": 0.968452847394422,
+    "action_count": 0,
+    "action_text": "今日无模型调仓",
+    "pit_status": "pass",
+    "data_status": "数据已通过当前可用口径校验。 数据时点校验通过。",
+    "conclusion": "今日无模型调仓。净值较上一可用账本日 2026-08-27 变动 +0.57%。本简报只呈现指数、组合和行业层结果。数据已通过当前可用口径校验。 数据时点校验通过。",
+    "industry": {
+      "status": "pass",
+      "coverage": 76,
+      "total": 86,
+      "observation": "本次行业观察覆盖持仓 76/86 只，按期末市值加权、以最近两个可用收盘日计算；领涨/领跌优先在至少两只持仓的行业中判定。领涨行业为中药（+2.43%，4只），领跌行业为化学制药（-1.01%，3只）。",
+      "leader": {
+        "industry": "中药",
+        "count": 4,
+        "weighted_return": 0.024294775141482997,
+        "mean_return": 0.029406492737880596,
+        "positive_ratio": 1.0,
+        "weight_share": 0.035597123356031685
+      },
+      "laggard": {
+        "industry": "化学制药",
+        "count": 3,
+        "weighted_return": -0.010138888510967175,
+        "mean_return": -0.00016578449441273513,
+        "positive_ratio": 0.6666666666666666,
+        "weight_share": 0.04362309945636036
+      },
+      "rows": [
+        {
+          "industry": "中药",
+          "count": 4,
+          "weighted_return": 0.024294775141482997,
+          "positive_ratio": 1.0,
+          "weight_share": 0.035597123356031685
+        },
+        {
+          "industry": "包装印刷",
+          "count": 3,
+          "weighted_return": 0.020143168495630682,
+          "positive_ratio": 1.0,
+          "weight_share": 0.008767242722019281
+        },
+        {
+          "industry": "纺织制造",
+          "count": 2,
+          "weighted_return": 0.019716902814785758,
+          "positive_ratio": 1.0,
+          "weight_share": 0.017269747364863343
+        },
+        {
+          "industry": "物流",
+          "count": 4,
+          "weighted_return": 0.01604368467663605,
+          "positive_ratio": 0.5,
+          "weight_share": 0.05536544665064413
+        },
+        {
+          "industry": "一般零售",
+          "count": 2,
+          "weighted_return": 0.014084573841618455,
+          "positive_ratio": 1.0,
+          "weight_share": 0.008775405479460516
+        },
+        {
+          "industry": "航空机场",
+          "count": 2,
+          "weighted_return": 0.011669469798848219,
+          "positive_ratio": 1.0,
+          "weight_share": 0.03711660962296444
+        },
+        {
+          "industry": "化学原料",
+          "count": 2,
+          "weighted_return": 0.008103946489618253,
+          "positive_ratio": 1.0,
+          "weight_share": 0.03475051304033593
+        },
+        {
+          "industry": "酒店餐饮",
+          "count": 3,
+          "weighted_return": 0.006660171406968894,
+          "positive_ratio": 1.0,
+          "weight_share": 0.028476992716614212
+        },
+        {
+          "industry": "专用设备",
+          "count": 3,
+          "weighted_return": 0.005222146597111625,
+          "positive_ratio": 1.0,
+          "weight_share": 0.08454333343187473
+        },
+        {
+          "industry": "养殖业",
+          "count": 2,
+          "weighted_return": 0.0018131391996704302,
+          "positive_ratio": 0.5,
+          "weight_share": 0.009642422688759353
+        },
+        {
+          "industry": "汽车零部件",
+          "count": 4,
+          "weighted_return": 0.0012078434025676135,
+          "positive_ratio": 0.5,
+          "weight_share": 0.012650950343519719
+        },
+        {
+          "industry": "环境治理",
+          "count": 4,
+          "weighted_return": 0.0003508352102470836,
+          "positive_ratio": 0.5,
+          "weight_share": 0.06647948213701872
+        },
+        {
+          "industry": "医疗器械",
+          "count": 5,
+          "weighted_return": 0.00014941256037684725,
+          "positive_ratio": 0.4,
+          "weight_share": 0.01715679245108192
+        },
+        {
+          "industry": "白色家电",
+          "count": 2,
+          "weighted_return": 5.873121286034304e-05,
+          "positive_ratio": 0.5,
+          "weight_share": 0.037585306330637565
+        },
+        {
+          "industry": "医药商业",
+          "count": 3,
+          "weighted_return": -0.00046624757600987216,
+          "positive_ratio": 0.6666666666666666,
+          "weight_share": 0.06984397220073676
+        },
+        {
+          "industry": "光学光电",
+          "count": 2,
+          "weighted_return": -0.0024411490132275225,
+          "positive_ratio": 0.0,
+          "weight_share": 0.03691154791913664
+        },
+        {
+          "industry": "化学制药",
+          "count": 3,
+          "weighted_return": -0.010138888510967175,
+          "positive_ratio": 0.6666666666666666,
+          "weight_share": 0.04362309945636036
+        }
+      ]
+    },
+    "benchmarks": [
+      {
+        "name": "沪深300",
+        "date": "2026-08-28",
+        "close": 4609.18,
+        "change": -0.004556959838281749
+      },
+      {
+        "name": "上证综指",
+        "date": "2026-08-28",
+        "close": 3952.18,
+        "change": -0.0011095469055268925
+      },
+      {
+        "name": "深证成指",
+        "date": "2026-08-28",
+        "close": 13953.07,
+        "change": -0.006819760721139323
+      },
+      {
+        "name": "创业板指",
+        "date": "2026-08-28",
+        "close": 3424.4,
+        "change": -0.014093022586263881
+      },
+      {
+        "name": "上证红利",
+        "date": "2026-08-28",
+        "close": 3372.0,
+        "change": 0.0015236703525827178
+      },
+      {
+        "name": "中证红利",
+        "date": "2026-08-28",
+        "close": 5691.52,
+        "change": 0.0027254869143154004
+      },
+      {
+        "name": "深证红利",
+        "date": "2026-08-28",
+        "close": 8351.25,
+        "change": 0.0002539186717658293
+      }
+    ]
   },
   "disclosure": {
     "research_only": true,
