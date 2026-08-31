@@ -19,6 +19,16 @@
 # misc
 .DS_Store
 *.pem
+*.key
+*.pfx
+*.db
+*.sqlite
+*.csv
+*.xlsx
+*.parquet
+*.tar.gz
+*.zip
+__pycache__/
 
 # debug
 npm-debug.log*
@@ -36,3 +46,5 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+/private/
+/reports/
