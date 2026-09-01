@@ -1,8 +1,8 @@
 {
   "schema_version": "public-v1",
-  "generated_at_utc": "2026-09-01T08:00:45.022130+00:00",
+  "generated_at_utc": "2026-09-01T08:18:44.293204+00:00",
   "data_as_of": "2026-09-01",
-  "source_snapshot_at": "2026-09-01T07:43:08+00:00",
+  "source_snapshot_at": "2026-09-01T08:18:31+00:00",
   "strategy": {
     "start": "2016-05-03",
     "end": "2026-09-01",
