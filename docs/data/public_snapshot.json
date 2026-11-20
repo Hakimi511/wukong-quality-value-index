@@ -1,17 +1,17 @@
 {
   "schema_version": "public-v1",
-  "generated_at_utc": "2026-11-19T09:03:45.625102+00:00",
-  "data_as_of": "2026-11-19",
-  "source_snapshot_at": "2026-11-19T09:03:25.374570+00:00",
+  "generated_at_utc": "2026-11-20T09:18:01.037767+00:00",
+  "data_as_of": "2026-11-20",
+  "source_snapshot_at": "2026-11-20T09:17:42.438081+00:00",
   "strategy": {
     "start": "2016-05-03",
-    "end": "2026-11-19",
-    "cagr": 0.1469388957434119,
+    "end": "2026-11-20",
+    "cagr": 0.1442187679557696,
     "max_drawdown": -0.2727934521298744,
-    "sharpe": 0.9118336728642944,
-    "latest_return": -0.01389366580141449,
-    "latest_nav": 8.484309812012548,
-    "latest_index_points": 4245.450538877891
+    "sharpe": 0.8968241928284925,
+    "latest_return": -0.024370782748555864,
+    "latest_nav": 8.277540540812549,
+    "latest_index_points": 4141.985586125158
   },
   "nav_daily": [
     {
@@ -12828,6 +12828,11 @@
       "date": "2026-11-19",
       "nav": 8.484309812,
       "index_points": 4245.450539
+    },
+    {
+      "date": "2026-11-20",
+      "nav": 8.2775405408,
+      "index_points": 4141.985586
     }
   ],
   "factor_highlights": [
@@ -12863,242 +12868,242 @@
     }
   ],
   "daily_public": {
-    "as_of": "2026-11-19",
-    "wukong_index_points": 4245.450538877891,
-    "daily_return": -0.01389366580141449,
-    "has_rebalance": false,
+    "as_of": "2026-11-20",
+    "wukong_index_points": 4141.985586125158,
+    "daily_return": -0.024370782748555864,
+    "has_rebalance": true,
     "pit_status": "pass"
   },
   "daily_brief": {
-    "as_of": "2026-11-19",
-    "previous_date": "2026-11-18",
-    "index_points": 4245.450538877891,
-    "index_daily_change": -0.013893665801414379,
-    "nav_amount": 8484309.812012548,
-    "nav_daily_change": -0.01389366580141449,
-    "ytd_return": -0.05105559869312226,
-    "cumulative_return": 3.2454505388778907,
-    "historical_cagr": 0.1469388957434119,
+    "as_of": "2026-11-20",
+    "previous_date": "2026-11-19",
+    "index_points": 4141.985586125158,
+    "index_daily_change": -0.024370782748555864,
+    "nav_amount": 8277540.540812548,
+    "nav_daily_change": -0.024370782748555864,
+    "ytd_return": -0.07418211653783058,
+    "cumulative_return": 3.141985586125158,
+    "historical_cagr": 0.1442187679557696,
     "historical_max_drawdown": -0.2727934521298744,
-    "historical_sharpe": 0.9118336728642944,
-    "action_count": 0,
-    "action_text": "今日无模型调仓",
+    "historical_sharpe": 0.8968241928284925,
+    "action_count": 6,
+    "action_text": "今日发生 6 笔模型调仓",
     "pit_status": "pass",
     "data_status": "数据已通过当前可用口径校验。 数据时点校验通过。",
-    "conclusion": "今日无模型调仓。净值较上一可用账本日 2026-11-18 变动 -1.39%。本简报只呈现指数、组合和行业层结果。数据已通过当前可用口径校验。 数据时点校验通过。",
+    "conclusion": "今日发生 6 笔模型调仓。净值较上一可用账本日 2026-11-19 变动 -2.44%。本简报只呈现指数、组合和行业层结果。数据已通过当前可用口径校验。 数据时点校验通过。",
     "industry": {
       "status": "pass",
-      "coverage": 92,
+      "coverage": 91,
       "total": 92,
-      "observation": "本次行业观察覆盖指数样本 92/92 只，按期末市值加权、以最近两个可用收盘日计算；领涨/领跌优先在至少两只样本的行业中判定。领涨行业为白色家电（+2.98%，2只），领跌行业为软件服务（-3.80%，2只）。",
+      "observation": "本次行业观察覆盖指数样本 91/92 只，按期末市值加权、以最近两个可用收盘日计算；领涨/领跌优先在至少两只样本的行业中判定。领涨行业为水务（-0.59%，2只），领跌行业为软件服务（-6.15%，2只）。",
       "leader": {
-        "industry": "白色家电",
+        "industry": "水务",
         "count": 2,
-        "weighted_return": 0.029816854811980018,
-        "mean_return": 0.0310608006300937,
-        "positive_ratio": 1.0,
-        "weight_share": 0.00981187361903315
+        "weighted_return": -0.005918618090029471,
+        "mean_return": -0.008246979688300501,
+        "positive_ratio": 0.5,
+        "weight_share": 0.008496364274816058
       },
       "laggard": {
         "industry": "软件服务",
         "count": 2,
-        "weighted_return": -0.03797234294006642,
-        "mean_return": -0.03529959834326385,
+        "weighted_return": -0.0614899357718074,
+        "mean_return": -0.05998435081106544,
         "positive_ratio": 0.0,
-        "weight_share": 0.0062835932046261984
+        "weight_share": 0.005972867078872956
       },
       "rows": [
         {
-          "industry": "白色家电",
+          "industry": "水务",
           "count": 2,
-          "weighted_return": 0.029816854811980018,
-          "positive_ratio": 1.0,
-          "weight_share": 0.00981187361903315
-        },
-        {
-          "industry": "航空机场",
-          "count": 2,
-          "weighted_return": -1.1840431019185824e-05,
+          "weighted_return": -0.005918618090029471,
           "positive_ratio": 0.5,
-          "weight_share": 0.043532396150215744
+          "weight_share": 0.008496364274816058
         },
         {
           "industry": "轨交设备",
           "count": 3,
-          "weighted_return": -0.0009352083822746606,
+          "weighted_return": -0.007066449126691583,
           "positive_ratio": 0.3333333333333333,
-          "weight_share": 0.07040772014719839
+          "weight_share": 0.07079820133765116
         },
         {
-          "industry": "包装印刷",
-          "count": 3,
-          "weighted_return": -0.0011356075660845038,
-          "positive_ratio": 0.3333333333333333,
-          "weight_share": 0.011923469109109195
-        },
-        {
-          "industry": "商用车",
+          "industry": "航空机场",
           "count": 2,
-          "weighted_return": -0.008405310314102736,
+          "weighted_return": -0.008315175238920215,
           "positive_ratio": 0.0,
-          "weight_share": 0.007207479589536451
-        },
-        {
-          "industry": "光伏设备",
-          "count": 2,
-          "weighted_return": -0.009170127430176221,
-          "positive_ratio": 0.0,
-          "weight_share": 0.03663790509047333
-        },
-        {
-          "industry": "水务",
-          "count": 2,
-          "weighted_return": -0.009587523341045867,
-          "positive_ratio": 0.0,
-          "weight_share": 0.008439285864082133
+          "weight_share": 0.04372483176685361
         },
         {
           "industry": "中药",
           "count": 2,
-          "weighted_return": -0.010610316407719294,
+          "weighted_return": -0.012630657317794322,
           "positive_ratio": 0.0,
-          "weight_share": 0.025392493318581903
+          "weight_share": 0.025393476640388688
         },
         {
-          "industry": "服装家纺",
-          "count": 3,
-          "weighted_return": -0.011291570079537178,
-          "positive_ratio": 0.3333333333333333,
-          "weight_share": 0.012278400636215712
-        },
-        {
-          "industry": "化学制药",
-          "count": 4,
-          "weighted_return": -0.0122138232060661,
+          "industry": "商用车",
+          "count": 2,
+          "weighted_return": -0.015731814665271137,
           "positive_ratio": 0.0,
-          "weight_share": 0.04671005338165099
-        },
-        {
-          "industry": "化学制品",
-          "count": 4,
-          "weighted_return": -0.013374388250875608,
-          "positive_ratio": 0.0,
-          "weight_share": 0.07197202921614874
-        },
-        {
-          "industry": "化学原料",
-          "count": 3,
-          "weighted_return": -0.013882298931027855,
-          "positive_ratio": 0.3333333333333333,
-          "weight_share": 0.0385917391556127
-        },
-        {
-          "industry": "IT设备",
-          "count": 5,
-          "weighted_return": -0.015418268369542597,
-          "positive_ratio": 0.2,
-          "weight_share": 0.05137852439973679
+          "weight_share": 0.0071849465986820625
         },
         {
           "industry": "环境治理",
           "count": 5,
-          "weighted_return": -0.016268464602864838,
+          "weighted_return": -0.016030717414864164,
           "positive_ratio": 0.0,
-          "weight_share": 0.05355449161982715
+          "weight_share": 0.053371157127807906
         },
         {
-          "industry": "电网设备",
-          "count": 2,
-          "weighted_return": -0.02088060512845241,
+          "industry": "化学原料",
+          "count": 3,
+          "weighted_return": -0.01939189944621044,
           "positive_ratio": 0.0,
-          "weight_share": 0.03902802235726487
+          "weight_share": 0.038329383764602966
+        },
+        {
+          "industry": "化学制药",
+          "count": 4,
+          "weighted_return": -0.027454027342141515,
+          "positive_ratio": 0.0,
+          "weight_share": 0.046008325923613834
+        },
+        {
+          "industry": "服装家纺",
+          "count": 3,
+          "weighted_return": -0.029693311150487962,
+          "positive_ratio": 0.0,
+          "weight_share": 0.012064965614110022
         },
         {
           "industry": "一般零售",
           "count": 2,
-          "weighted_return": -0.02091303677764461,
+          "weighted_return": -0.02981030866463676,
           "positive_ratio": 0.0,
-          "weight_share": 0.009610141740720555
+          "weight_share": 0.009443285356683019
         },
         {
-          "industry": "汽车零部件",
-          "count": 6,
-          "weighted_return": -0.022145509366047207,
+          "industry": "IT设备",
+          "count": 5,
+          "weighted_return": -0.030908436340494425,
           "positive_ratio": 0.0,
-          "weight_share": 0.023286726764688254
+          "weight_share": 0.051408650992970865
+        },
+        {
+          "industry": "化学制品",
+          "count": 4,
+          "weighted_return": -0.031566959037923115,
+          "positive_ratio": 0.0,
+          "weight_share": 0.07059310783144035
+        },
+        {
+          "industry": "包装印刷",
+          "count": 3,
+          "weighted_return": -0.03464413634910767,
+          "positive_ratio": 0.0,
+          "weight_share": 0.011657858854597688
+        },
+        {
+          "industry": "光伏设备",
+          "count": 2,
+          "weighted_return": -0.03672125673907923,
+          "positive_ratio": 0.0,
+          "weight_share": 0.03574556494918609
         },
         {
           "industry": "通用设备",
           "count": 2,
-          "weighted_return": -0.024523463706470273,
+          "weighted_return": -0.03776709735891782,
           "positive_ratio": 0.0,
-          "weight_share": 0.031020077770680273
+          "weight_share": 0.038712618564068234
         },
         {
-          "industry": "纺织制造",
+          "industry": "白色家电",
           "count": 2,
-          "weighted_return": -0.02472634455268803,
-          "positive_ratio": 0.0,
-          "weight_share": 0.01224127284705391
+          "weighted_return": -0.03882280066111915,
+          "positive_ratio": 0.5,
+          "weight_share": 0.009524398683294556
         },
         {
           "industry": "医疗器械",
           "count": 4,
-          "weighted_return": -0.02744922482837087,
+          "weighted_return": -0.04322556734315465,
           "positive_ratio": 0.0,
-          "weight_share": 0.0186261121388483
+          "weight_share": 0.019001181790366202
+        },
+        {
+          "industry": "纺织制造",
+          "count": 2,
+          "weighted_return": -0.0445290674911757,
+          "positive_ratio": 0.0,
+          "weight_share": 0.011843957467867828
+        },
+        {
+          "industry": "汽车零部件",
+          "count": 6,
+          "weighted_return": -0.04556543767465767,
+          "positive_ratio": 0.0,
+          "weight_share": 0.02250843475921663
+        },
+        {
+          "industry": "电网设备",
+          "count": 2,
+          "weighted_return": -0.06003695257800881,
+          "positive_ratio": 0.5,
+          "weight_share": 0.03713232047772669
         },
         {
           "industry": "软件服务",
           "count": 2,
-          "weighted_return": -0.03797234294006642,
+          "weighted_return": -0.0614899357718074,
           "positive_ratio": 0.0,
-          "weight_share": 0.0062835932046261984
+          "weight_share": 0.005972867078872956
         }
       ]
     },
     "benchmarks": [
       {
-        "name": "上证红利",
-        "date": "2026-11-19",
-        "close": 3313.31,
-        "change": -0.004467907384816949
+        "name": "沪深300",
+        "date": "2026-11-20",
+        "close": 3954.57,
+        "change": -0.007596289938868295
       },
       {
         "name": "上证综指",
-        "date": "2026-11-19",
-        "close": 3577.62,
-        "change": -0.002845731263744433
-      },
-      {
-        "name": "中证红利",
-        "date": "2026-11-18",
-        "close": 5573.61,
-        "change": 0.0008978901377543202
-      },
-      {
-        "name": "创业板指",
-        "date": "2026-11-19",
-        "close": 2293.34,
-        "change": -0.007907874131561354
-      },
-      {
-        "name": "沪深300",
-        "date": "2026-11-19",
-        "close": 3984.84,
-        "change": 0.00026858980312627345
+        "date": "2026-11-20",
+        "close": 3533.79,
+        "change": -0.01225116138662019
       },
       {
         "name": "深证成指",
-        "date": "2026-11-19",
-        "close": 10583.2,
-        "change": -0.007149551429206591
+        "date": "2026-11-20",
+        "close": 10256.39,
+        "change": -0.030880074079673525
+      },
+      {
+        "name": "创业板指",
+        "date": "2026-11-20",
+        "close": 2212.13,
+        "change": -0.03541123426966786
+      },
+      {
+        "name": "上证红利",
+        "date": "2026-11-20",
+        "close": 3324.75,
+        "change": 0.0034527406128614935
+      },
+      {
+        "name": "中证红利",
+        "date": "2026-11-20",
+        "close": 5529.78,
+        "change": -0.003293048909076224
       },
       {
         "name": "深证红利",
-        "date": "2026-11-19",
-        "close": 7490.68,
-        "change": -0.004167757905778058
+        "date": "2026-11-20",
+        "close": 7380.31,
+        "change": -0.01473430983568913
       }
     ]
   },
